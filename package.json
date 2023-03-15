@@ -12,6 +12,7 @@
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@fontsource/roboto": "^4.5.8",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.13",
     "@types/react-router-dom": "^5.3.3",
@@ -21,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
+    "recharts": "^2.4.3",
     "yup": "^1.0.2"
   },
   "devDependencies": {

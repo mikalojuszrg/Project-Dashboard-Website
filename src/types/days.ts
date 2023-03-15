@@ -1,9 +1,9 @@
 export type Days = {
-  monday: number | null;
-  tuesday: number | null;
-  wednesday: number | null;
-  thursday: number | null;
-  friday: number | null;
-  saturday: number | null;
-  sunday: number | null;
+  monday: number | "";
+  tuesday: number | "";
+  wednesday: number | "";
+  thursday: number | "";
+  friday: number | "";
+  saturday: number | "";
+  sunday: number | "";
 };

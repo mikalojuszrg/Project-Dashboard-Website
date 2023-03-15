@@ -1,9 +1,8 @@
 import { Avatar, Box, Button, InputAdornment, Paper } from "@mui/material";
 import { Field, Form, Formik } from "formik";
 
-import { AccountCircle } from "@mui/icons-material";
 import { Days } from "../../types/days";
-import PaidIcon from "@mui/icons-material/Paid";
+import EuroIcon from "@mui/icons-material/Euro";
 import { TextField } from "formik-mui";
 import Typography from "@mui/material/Typography";
 import { inputValues } from "./const";
@@ -29,14 +28,15 @@ const DashobardInputs = () => {
                 sx={{ mb: 1 }}
                 fullWidth
                 required
-                // InputProps={{
-                //   startAdornment: (
-                //     <InputAdornment position="start">
-                //       <AccountCircle />
-                //     </InputAdornment>
-                //   ),
-                // }}
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
+
               <Field
                 component={TextField}
                 type="number"
@@ -45,51 +45,94 @@ const DashobardInputs = () => {
                 sx={{ mb: 1 }}
                 fullWidth
                 required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
+              />
+
+              <Field
+                component={TextField}
+                type="number"
+                name="wednesday"
+                label="Wednesday"
+                sx={{ mb: 1 }}
+                fullWidth
+                required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
               <Field
                 component={TextField}
                 type="number"
-                name="tuesday"
-                label="Tuesday"
+                name="thursday"
+                label="Thursday"
                 sx={{ mb: 1 }}
                 fullWidth
                 required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
               <Field
                 component={TextField}
                 type="number"
-                name="tuesday"
-                label="Tuesday"
+                name="friday"
+                label="Friday"
                 sx={{ mb: 1 }}
                 fullWidth
                 required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
               <Field
                 component={TextField}
                 type="number"
-                name="tuesday"
-                label="Tuesday"
+                name="saturday"
+                label="Saturday"
                 sx={{ mb: 1 }}
                 fullWidth
                 required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
               <Field
                 component={TextField}
                 type="number"
-                name="tuesday"
-                label="Tuesday"
+                name="sunday"
+                label="Sunday"
                 sx={{ mb: 1 }}
                 fullWidth
                 required
-              />
-              <Field
-                component={TextField}
-                type="number"
-                name="tuesday"
-                label="Tuesday"
-                sx={{ mb: 1 }}
-                fullWidth
-                required
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <EuroIcon />
+                    </InputAdornment>
+                  ),
+                }}
               />
               <Button
                 type="submit"

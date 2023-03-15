@@ -1,3 +1,4 @@
+import DashboardGraphs from "./DashboardGraphs";
 import DashobardInputs from "./DashboardInputs";
 import { Grid } from "@mui/material";
 
@@ -8,7 +9,7 @@ const Dashboard = () => {
         <DashobardInputs />
       </Grid>
       <Grid item xs={12} md={8}>
-        GRAPHS
+        <DashboardGraphs />
       </Grid>
     </Grid>
   );
