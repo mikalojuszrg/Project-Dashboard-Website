@@ -1,5 +1,3 @@
-import * as Yup from "yup";
-
 import { Avatar, Box, Button, Paper } from "@mui/material";
 import { Field, Form, Formik } from "formik";
 
